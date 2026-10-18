@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Browse — Fake Manga Site</title>
+  <link rel="stylesheet" href="site.css">
+  <script src="../harness.js"></script>
+  <script src="data.js"></script>
+</head>
+<body>
+  <div class="testbar">TEST PAGE ·
+    <button onclick="psToggle()">Toggle panel (toolbar icon)</button>
+    <button onclick="psReset()">Reset tracker data</button>
+    <a href="infinite.html" style="color:#9cf">infinite-scroll page</a>
+  </div>
+  <header class="site-hd hd-x7Fq2">Fake Manga Site</header>
+  <div class="layout">
+    <main>
+      <h1 id="h"></h1>
+      <div class="grid sc-a1B2c3 kVcKcL" id="grid"></div>
+      <nav class="pager" id="pager"></nav>
+    </main>
+    <aside>
+      <h2>Popular</h2>
+      <div id="popular"></div>
+    </aside>
+  </div>
+  <script>
+    const PER = 12;
+    const pg = Math.max(1, +new URLSearchParams(location.search).get('pg') || 1);
+    const pages = Math.ceil(FAKE_SERIES.length / PER);
+    document.getElementById('h').textContent = `Browse — page ${pg} of ${pages}`;
+    document.getElementById('grid').innerHTML = FAKE_SERIES.slice((pg - 1) * PER, pg * PER).map(s => cardHTML(s)).join('');
+    document.getElementById('popular').innerHTML = FAKE_SERIES.slice(30, 35).map(s => cardHTML(s, 'mini')).join('');
+    let nav = '';
+    for (let i = 1; i <= pages; i++) nav += `<a href="?pg=${i}" class="${i === pg ? 'cur' : ''}">${i}</a>`;
+    if (pg < pages) nav += `<a href="?pg=${pg + 1}">Next ›</a>`;
+    document.getElementById('pager').innerHTML = nav;
+  </script>
+  <!-- the real content scripts, in manifest order -->
+  <script src="../../content/ns.js"></script>
+  <script src="../../content/values.js"></script>
+  <script src="../../content/formula.js"></script>
+  <script src="../../content/selectors.js"></script>
+  <script src="../../content/extract.js"></script>
+  <script src="../../content/pagedata.js"></script>
+  <script src="../../content/filters.js"></script>
+  <script src="../../content/pagefilter.js"></script>
+  <script src="../../content/store.js"></script>
+  <script src="../../content/picker.js"></script>
+  <script src="../../content/help.js"></script>
+  <script src="../../content/panel.js"></script>
+  <script src="../../content/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,585 @@
+{
+ "status": "ok",
+ "code": 200,
+ "data": {
+  "data": [
+   {
+    "contractId": "23MA0025",
+    "description": "CONSTRUCTION OF BRIDGE PROJECT NO. 26",
+    "category": "Buildings and Facilities",
+    "status": "Not Yet Started",
+    "budget": 190937937.88,
+    "amountPaid": 890611.4,
+    "progress": 0,
+    "location": {
+     "region": "Region I",
+     "province": "Bukidnon"
+    },
+    "contractor": "CONTRACTOR 10 (16984)",
+    "implementingOffice": "Aklan DEO",
+    "startDate": "2024-02-28",
+    "sourceOfFunds": "Regular Infra - GAA 2025",
+    "componentCategories": [
+     "Buildings and Facilities",
+     "Bridges"
+    ],
+    "latitude": 16.15278,
+    "longitude": 123.05752
+   },
+   {
+    "contractId": "25AC0026",
+    "description": "CONSTRUCTION OF ROAD PROJECT NO. 27",
+    "category": "Buildings and Facilities",
+    "status": "Not Yet Started",
+    "budget": 138455763.76,
+    "amountPaid": 788835.19,
+    "progress": 100,
+    "location": {
+     "region": "Region VI",
+     "province": "Aklan"
+    },
+    "contractor": "CONTRACTOR 14 (10588)",
+    "implementingOffice": "South Cotabato 2nd DEO",
+    "startDate": "2024-07-16",
+    "sourceOfFunds": "Foreign Assisted",
+    "componentCategories": [
+     "Buildings and Facilities",
+     "Bridges"
+    ],
+    "latitude": 14.82518,
+    "longitude": 121.2569
+   },
+   {
+    "contractId": "23MO0027",
+    "description": "CONSTRUCTION OF BRIDGE PROJECT NO. 28",
+    "category": "Buildings and Facilities",
+    "status": "On-Going",
+    "budget": 102712866.58,
+    "amountPaid": 30082.65,
+    "progress": 55,
+    "location": {
+     "region": "Region XII",
+     "province": "Pangasinan"
+    },
+    "contractor": "CONTRACTOR 9 (30084)",
+    "implementingOffice": "Aklan DEO",
+    "startDate": "2024-06-25",
+    "sourceOfFunds": "Regular Infra - GAA 2024",
+    "componentCategories": [
+     "Bridges",
+     "Buildings and Facilities"
+    ],
+    "latitude": 6.19769,
+    "longitude": 119.69283
+   },
+   {
+    "contractId": "25KD0028",
+    "description": "CONSTRUCTION OF ROAD PROJECT NO. 29",
+    "category": "Buildings and Facilities",
+    "status": "Completed",
+    "budget": 91669498.43,
+    "amountPaid": 990308.29,
+    "progress": 32,
+    "location": {
+     "region": "Region I",
+     "province": "Aklan"
+    },
+    "contractor": "CONTRACTOR 34 (37631)",
+    "implementingOffice": "Quezon 1st DEO",
+    "startDate": "2024-11-16",
+    "sourceOfFunds": "Regular Infra - GAA 2024",
+    "componentCategories": [
+     "Buildings and Facilities",
+     "Bridges"
+    ],
+    "latitude": 16.30023,
+    "longitude": 122.6554
+   },
+   {
+    "contractId": "24KB0029",
+    "description": "CONSTRUCTION OF BRIDGE PROJECT NO. 30",
+    "category": "Roads",
+    "status": "Completed",
+    "budget": 135643617.12,
+    "amountPaid": 262927.89,
+    "progress": 55,
+    "location": {
+     "region": "NCR",
+     "province": "Pangasinan"
+    },
+    "contractor": "CONTRACTOR 39 (37649)",
+    "implementingOffice": "Aklan DEO",
+    "startDate": "2024-11-28",
+    "sourceOfFunds": "Regular Infra - GAA 2025",
+    "componentCategories": [
+     "Bridges",
+     "Roads"
+    ],
+    "latitude": 5.64367,
+    "longitude": 118.4276
+   },
+   {
+    "contractId": "24KA0030",
+    "description": "CONSTRUCTION OF FLOOD WALL PROJECT NO. 31",
+    "category": "Roads",
+    "status": "Completed",
+    "budget": 159754160.6,
+    "amountPaid": 392291.95,
+    "progress": 100,
+    "location": {
+     "region": "Region XII",
+     "province": "Pangasinan"
+    },
+    "contractor": "CONTRACTOR 24 (24090)",
+    "implementingOffice": "Pangasinan 1st DEO",
+    "startDate": "2024-11-09",
+    "sourceOfFunds": "Foreign Assisted",
+    "componentCategories": [
+     "Roads",
+     "Flood Control"
+    ],
+    "latitude": 7.35601,
+    "longitude": 120.86537
+   },
+   {
+    "contractId": "25BK0031",
+    "description": "CONSTRUCTION OF BRIDGE PROJECT NO. 32",
+    "category": "Buildings and Facilities",
+    "status": "On-Going",
+    "budget": 73372203.19,
+    "amountPaid": 708080.67,
+    "progress": 32,
+    "location": {
+     "region": "Region IV-A",
+     "province": "Pangasinan"
+    },
+    "contractor": "CONTRACTOR 12 (27514)",
+    "implementingOffice": "Region X",
+    "startDate": "2024-10-28",
+    "sourceOfFunds": "Regular Infra - GAA 2024",
+    "componentCategories": [
+     "Roads",
+     "Flood Control"
+    ],
+    "latitude": 7.48478,
+    "longitude": 124.6033
+   },
+   {
+    "contractId": "23C00032",
+    "description": "CONSTRUCTION OF FLOOD WALL PROJECT NO. 33",
+    "category": "Bridges",
+    "status": "Completed",
+    "budget": 199054205.24,
+    "amountPaid": 617341.26,
+    "progress": 55,
+    "location": {
+     "region": "Region VI",
+     "province": "Quezon"
+    },
+    "contractor": "CONTRACTOR 29 (32871)",
+    "implementingOffice": "Region X",
+    "startDate": "2024-01-10",
+    "sourceOfFunds": "Foreign Assisted",
+    "componentCategories": [
+     "Roads",
+     "Buildings and Facilities"
+    ],
+    "latitude": 15.18815,
+    "longitude": 123.85793
+   },
+   {
+    "contractId": "25BB0033",
+    "description": "CONSTRUCTION OF ROAD PROJECT NO. 34",
+    "category": "Roads",
+    "status": "On-Going",
+    "budget": 33106987.28,
+    "amountPaid": 675418.15,
+    "progress": 0,
+    "location": {
+     "region": "Region IV-A",
+     "province": "Aklan"
+    },
+    "contractor": "CONTRACTOR 39 (20900)",
+    "implementingOffice": "National Capital Region",
+    "startDate": "2024-06-10",
+    "sourceOfFunds": "Regular Infra - GAA 2024",
+    "componentCategories": [
+     "Roads",
+     "Bridges"
+    ],
+    "latitude": 10.68045,
+    "longitude": 124.40251
+   },
+   {
+    "contractId": "24GA0034",
+    "description": "CONSTRUCTION OF MULTI-PURPOSE BUILDING PROJECT NO. 35",
+    "category": "Bridges",
+    "status": "On-Going",
+    "budget": 148250065.54,
+    "amountPaid": 540952.43,
+    "progress": 55,
+    "location": {
+     "region": "Region IV-A",
+     "province": "Pangasinan"
+    },
+    "contractor": "CONTRACTOR 35 (31605)",
+    "implementingOffice": "National Capital Region",
+    "startDate": "2024-03-06",
+    "sourceOfFunds": "Special Fund",
+    "componentCategories": [
+     "Buildings and Facilities",
+     "Flood Control"
+    ],
+    "latitude": 9.35601,
+    "longitude": 122.30099
+   },
+   {
+    "contractId": "23BK0035",
+    "description": "CONSTRUCTION OF BRIDGE PROJECT NO. 36",
+    "category": "Flood Control",
+    "status": "On-Going",
+    "budget": 165906777.76,
+    "amountPaid": 73937.59,
+    "progress": 32,
+    "location": {
+     "region": "Region IV-A",
+     "province": "Aklan"
+    },
+    "contractor": "CONTRACTOR 36 (33301)",
+    "implementingOffice": "Region X",
+    "startDate": "2024-10-28",
+    "sourceOfFunds": "Regular Infra - GAA 2024",
+    "componentCategories": [
+     "Buildings and Facilities",
+     "Roads"
+    ],
+    "latitude": 14.21946,
+    "longitude": 118.37644
+   },
+   {
+    "contractId": "23BC0036",
+    "description": "CONSTRUCTION OF ROAD PROJECT NO. 37",
+    "category": "Buildings and Facilities",
+    "status": "On-Going",
+    "budget": 176608067.14,
+    "amountPaid": 280797.34,
+    "progress": 100,
+    "location": {
+     "region": "Region VI",
+     "province": "Quezon"
+    },
+    "contractor": "CONTRACTOR 9 (19432)",
+    "implementingOffice": "South Cotabato 2nd DEO",
+    "startDate": "2024-05-20",
+    "sourceOfFunds": "Regular Infra - GAA 2024",
+    "componentCategories": [
+     "Roads",
+     "Bridges"
+    ],
+    "latitude": 11.8817,
+    "longitude": 124.82842
+   },
+   {
+    "contractId": "25AD0037",
+    "description": "CONSTRUCTION OF ROAD PROJECT NO. 38",
+    "category": "Flood Control",
+    "status": "Completed",
+    "budget": 57421574.14,
+    "amountPaid": 845719.69,
+    "progress": 32,
+    "location": {
+     "region": "Region IV-A",
+     "province": "Aklan"
+    },
+    "contractor": "CONTRACTOR 6 (13053)",
+    "implementingOffice": "Quezon 1st DEO",
+    "startDate": "2024-07-22",
+    "sourceOfFunds": "Regular Infra - GAA 2024",
+    "componentCategories": [
+     "Buildings and Facilities",
+     "Flood Control"
+    ],
+    "latitude": 11.72971,
+    "longitude": 121.39249
+   },
+   {
+    "contractId": "24GK0038",
+    "description": "CONSTRUCTION OF BRIDGE PROJECT NO. 39",
+    "category": "Roads",
+    "status": "Not Yet Started",
+    "budget": 13373760.3,
+    "amountPaid": 139177.62,
+    "progress": 32,
+    "location": {
+     "region": "Region I",
+     "province": "Pangasinan"
+    },
+    "contractor": "CONTRACTOR 33 (21120)",
+    "implementingOffice": "Pangasinan 1st DEO",
+    "startDate": "2024-11-06",
+    "sourceOfFunds": "Special Fund",
+    "componentCategories": [
+     "Bridges",
+     "Buildings and Facilities"
+    ],
+    "latitude": 12.60954,
+    "longitude": 122.64039
+   },
+   {
+    "contractId": "23AA0039",
+    "description": "CONSTRUCTION OF MULTI-PURPOSE BUILDING PROJECT NO. 40",
+    "category": "Flood Control",
+    "status": "On-Going",
+    "budget": 118979447.12,
+    "amountPaid": 963618.9,
+    "progress": 32,
+    "location": {
+     "region": "Region XII",
+     "province": "Pangasinan"
+    },
+    "contractor": "CONTRACTOR 35 (24975)",
+    "implementingOffice": "Region X",
+    "startDate": "2024-03-02",
+    "sourceOfFunds": "Foreign Assisted",
+    "componentCategories": [
+     "Bridges",
+     "Flood Control"
+    ],
+    "latitude": 17.97767,
+    "longitude": 122.64126
+   },
+   {
+    "contractId": "24GD0040",
+    "description": "CONSTRUCTION OF FLOOD WALL PROJECT NO. 41",
+    "category": "Buildings and Facilities",
+    "status": "Completed",
+    "budget": 61502785.94,
+    "amountPaid": 316270.45,
+    "progress": 55,
+    "location": {
+     "region": "Region VI",
+     "province": "Aklan"
+    },
+    "contractor": "CONTRACTOR 35 (25859)",
+    "implementingOffice": "National Capital Region",
+    "startDate": "2024-05-19",
+    "sourceOfFunds": "Special Fund",
+    "componentCategories": [
+     "Buildings and Facilities",
+     "Bridges"
+    ],
+    "latitude": 16.18497,
+    "longitude": 119.32662
+   },
+   {
+    "contractId": "24MD0041",
+    "description": "CONSTRUCTION OF BRIDGE PROJECT NO. 42",
+    "category": "Bridges",
+    "status": "On-Going",
+    "budget": 20069704.59,
+    "amountPaid": 994844.63,
+    "progress": 0,
+    "location": {
+     "region": "Region XII",
+     "province": "Quezon"
+    },
+    "contractor": "CONTRACTOR 3 (38413)",
+    "implementingOffice": "Quezon 1st DEO",
+    "startDate": "2024-06-21",
+    "sourceOfFunds": "Regular Infra - GAA 2025",
+    "componentCategories": [
+     "Bridges",
+     "Roads"
+    ],
+    "latitude": 9.84752,
+    "longitude": 123.15723
+   },
+   {
+    "contractId": "25B00042",
+    "description": "CONSTRUCTION OF MULTI-PURPOSE BUILDING PROJECT NO. 43",
+    "category": "Roads",
+    "status": "On-Going",
+    "budget": 158351641.89,
+    "amountPaid": 96124.94,
+    "progress": 0,
+    "location": {
+     "region": "Region X",
+     "province": "Quezon"
+    },
+    "contractor": "CONTRACTOR 26 (15371)",
+    "implementingOffice": "South Cotabato 2nd DEO",
+    "startDate": "2024-12-14",
+    "sourceOfFunds": "Regular Infra - GAA 2024",
+    "componentCategories": [
+     "Bridges",
+     "Flood Control"
+    ],
+    "latitude": 9.46122,
+    "longitude": 120.79546
+   },
+   {
+    "contractId": "23BA0043",
+    "description": "CONSTRUCTION OF ROAD PROJECT NO. 44",
+    "category": "Flood Control",
+    "status": "Not Yet Started",
+    "budget": 43675127.03,
+    "amountPaid": 351887.46,
+    "progress": 100,
+    "location": {
+     "region": "Region XII",
+     "province": "Quezon"
+    },
+    "contractor": "CONTRACTOR 26 (15166)",
+    "implementingOffice": "Quezon 1st DEO",
+    "startDate": "2024-06-12",
+    "sourceOfFunds": "Foreign Assisted",
+    "componentCategories": [
+     "Flood Control",
+     "Buildings and Facilities"
+    ],
+    "latitude": 7.7394,
+    "longitude": 118.21832
+   },
+   {
+    "contractId": "25AC0044",
+    "description": "CONSTRUCTION OF FLOOD WALL PROJECT NO. 45",
+    "category": "Buildings and Facilities",
+    "status": "On-Going",
+    "budget": 64226103.36,
+    "amountPaid": 669514.08,
+    "progress": 100,
+    "location": {
+     "region": "NCR",
+     "province": "Quezon"
+    },
+    "contractor": "CONTRACTOR 22 (38872)",
+    "implementingOffice": "South Cotabato 2nd DEO",
+    "startDate": "2024-03-15",
+    "sourceOfFunds": "Regular Infra - GAA 2024",
+    "componentCategories": [
+     "Flood Control",
+     "Bridges"
+    ],
+    "latitude": 17.8093,
+    "longitude": 120.9448
+   },
+   {
+    "contractId": "24GC0045",
+    "description": "CONSTRUCTION OF ROAD PROJECT NO. 46",
+    "category": "Buildings and Facilities",
+    "status": "Not Yet Started",
+    "budget": 8072137.47,
+    "amountPaid": 877813.61,
+    "progress": 32,
+    "location": {
+     "region": "Region XII",
+     "province": "Aklan"
+    },
+    "contractor": "CONTRACTOR 31 (17582)",
+    "implementingOffice": "National Capital Region",
+    "startDate": "2024-07-10",
+    "sourceOfFunds": "Special Fund",
+    "componentCategories": [
+     "Flood Control",
+     "Bridges"
+    ],
+    "latitude": 10.43257,
+    "longitude": 124.75556
+   },
+   {
+    "contractId": "24DA0046",
+    "description": "CONSTRUCTION OF MULTI-PURPOSE BUILDING PROJECT NO. 47",
+    "category": "Flood Control",
+    "status": "Not Yet Started",
+    "budget": 150116111.27,
+    "amountPaid": 197103.71,
+    "progress": 55,
+    "location": {
+     "region": "Region VI",
+     "province": "Aklan"
+    },
+    "contractor": "CONTRACTOR 17 (27735)",
+    "implementingOffice": "Pangasinan 1st DEO",
+    "startDate": "2024-12-14",
+    "sourceOfFunds": "Foreign Assisted",
+    "componentCategories": [
+     "Bridges",
+     "Flood Control"
+    ],
+    "latitude": 17.07399,
+    "longitude": 123.93294
+   },
+   {
+    "contractId": "25GA0047",
+    "description": "CONSTRUCTION OF FLOOD WALL PROJECT NO. 48",
+    "category": "Buildings and Facilities",
+    "status": "Not Yet Started",
+    "budget": 124691373.6,
+    "amountPaid": 186939.02,
+    "progress": 32,
+    "location": {
+     "region": "Region I",
+     "province": "Bukidnon"
+    },
+    "contractor": "CONTRACTOR 37 (19988)",
+    "implementingOffice": "Region X",
+    "startDate": "2024-12-26",
+    "sourceOfFunds": "Regular Infra - GAA 2024",
+    "componentCategories": [
+     "Roads",
+     "Flood Control"
+    ],
+    "latitude": 15.02721,
+    "longitude": 119.23851
+   },
+   {
+    "contractId": "25M00048",
+    "description": "CONSTRUCTION OF MULTI-PURPOSE BUILDING PROJECT NO. 49",
+    "category": "Roads",
+    "status": "Not Yet Started",
+    "budget": 13619482.42,
+    "amountPaid": 441020.53,
+    "progress": 32,
+    "location": {
+     "region": "Region IV-A",
+     "province": "Bukidnon"
+    },
+    "contractor": "CONTRACTOR 35 (12068)",
+    "implementingOffice": "National Capital Region",
+    "startDate": "2024-10-08",
+    "sourceOfFunds": "Regular Infra - GAA 2025",
+    "componentCategories": [
+     "Bridges",
+     "Roads"
+    ],
+    "latitude": 5.0706,
+    "longitude": 119.54874
+   },
+   {
+    "contractId": "24BA0049",
+    "description": "CONSTRUCTION OF MULTI-PURPOSE BUILDING PROJECT NO. 50",
+    "category": "Buildings and Facilities",
+    "status": "On-Going",
+    "budget": 115216445.01,
+    "amountPaid": 577282.53,
+    "progress": 55,
+    "location": {
+     "region": "NCR",
+     "province": "Quezon"
+    },
+    "contractor": "CONTRACTOR 40 (18232)",
+    "implementingOffice": "Aklan DEO",
+    "startDate": "2024-09-16",
+    "sourceOfFunds": "Regular Infra - GAA 2024",
+    "componentCategories": [
+     "Roads",
+     "Bridges"
+    ],
+    "latitude": 16.71488,
+    "longitude": 118.453
+   }
+  ],
+  "page": 2,
+  "total": 50
+ }
+}

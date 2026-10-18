@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96">
+  <!-- 16 px version of icon.svg: 6 units = 1 px, so strokes are whole pixels and the mesh is a simple 3×3 grid. -->
+  <defs>
+    <clipPath id="mesh"><circle cx="61" cy="63" r="19"/></clipPath>
+  </defs>
+  <path d="M18 6h38l22 22v61a4 4 0 0 1-4 4H18a4 4 0 0 1-4-4V10a4 4 0 0 1 4-4z" fill="#fff" stroke="#1b1c1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M55 6v19a4 4 0 0 0 4 4h19" fill="none" stroke="#1b1c1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M27 42h12" stroke="#1b1c1f" stroke-width="6" stroke-linecap="round"/>
+  <path d="M80 82l10 10" stroke="#1b1c1f" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="61" cy="63" r="28" fill="#fff"/>
+  <circle cx="61" cy="63" r="22" fill="#2c4bd1"/>
+  <g clip-path="url(#mesh)" stroke="#fff" stroke-width="4.5">
+    <path d="M54 40v46M68 40v46M38 56h46M38 70h46"/>
+  </g>
+  <circle cx="61" cy="63" r="22" fill="none" stroke="#1b1c1f" stroke-width="6"/>
+</svg>

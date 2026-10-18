@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Series — Fake Manga Site</title><link rel="stylesheet" href="site.css"></head>
+<body>
+  <header class="site-hd">Fake Manga Site</header>
+  <main style="padding:24px"><h1 id="t">Series page</h1><p><a href="catalog.html">← back to browse</a></p></main>
+  <script>document.getElementById('t').textContent = 'Series #' + new URLSearchParams(location.search).get('id');</script>
+</body>
+</html>

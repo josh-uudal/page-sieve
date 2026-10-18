@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96">
+  <!-- Page Sieve: a page with a sieve over its corner. Used for the 48 and 128 px icons. -->
+  <defs>
+    <clipPath id="mesh"><circle cx="62" cy="64" r="19"/></clipPath>
+  </defs>
+  <path d="M20 8h36l22 22v58a4 4 0 0 1-4 4H20a4 4 0 0 1-4-4V12a4 4 0 0 1 4-4z" fill="#fff" stroke="#1b1c1f" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M56 8v18a4 4 0 0 0 4 4h18" fill="none" stroke="#1b1c1f" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M26 42h22M26 54h14" stroke="#1b1c1f" stroke-width="4" stroke-linecap="round"/>
+  <path d="M79 81l11 11" stroke="#1b1c1f" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="62" cy="64" r="26" fill="#fff"/>
+  <circle cx="62" cy="64" r="22" fill="#2c4bd1"/>
+  <g clip-path="url(#mesh)" stroke="#fff" stroke-width="2.2">
+    <path d="M50 40v48M56 40v48M62 40v48M68 40v48M74 40v48M38 52h48M38 58h48M38 64h48M38 70h48M38 76h48"/>
+  </g>
+  <circle cx="62" cy="64" r="22" fill="none" stroke="#1b1c1f" stroke-width="4"/>
+</svg>

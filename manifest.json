@@ -1,0 +1,46 @@
+{
+  "manifest_version": 3,
+  "name": "Page Sieve",
+  "version": "0.1.0",
+  "description": "Hover-pick the fields you care about on catalog pages and collect them into a sortable list as you browse.",
+  "permissions": ["storage", "unlimitedStorage", "activeTab", "scripting"],
+  "background": { "service_worker": "background.js" },
+  "action": {
+    "default_title": "Page Sieve (Alt+Shift+T)",
+    "default_icon": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" }
+  },
+  "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
+  "commands": {
+    "toggle-panel": {
+      "suggested_key": { "default": "Alt+Shift+T" },
+      "description": "Show or hide the tracker panel"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": [
+        "content/ns.js",
+        "content/values.js",
+        "content/formula.js",
+        "content/selectors.js",
+        "content/extract.js",
+        "content/pagedata.js",
+        "content/filters.js",
+        "content/pagefilter.js",
+        "content/store.js",
+        "content/picker.js",
+        "content/help.js",
+        "content/panel.js",
+        "content/main.js"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content/netwatch.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ]
+}

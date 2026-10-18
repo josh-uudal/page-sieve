@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Latest — Fake Manga Site</title>
+  <link rel="stylesheet" href="site.css">
+  <script src="../harness.js"></script>
+  <script src="data.js"></script>
+</head>
+<body>
+  <div class="testbar">TEST PAGE (infinite scroll) ·
+    <button onclick="psToggle()">Toggle panel (toolbar icon)</button>
+    <button onclick="psReset()">Reset tracker data</button>
+    <a href="catalog.html" style="color:#9cf">paged catalog</a>
+  </div>
+  <header class="site-hd">Fake Manga Site</header>
+  <div class="layout">
+    <main>
+      <h1>Latest updates</h1>
+      <div class="grid" id="grid"></div>
+      <p id="more" style="padding:30px;text-align:center">Loading more…</p>
+    </main>
+  </div>
+  <script>
+    let shown = 0;
+    function more() {
+      if (shown >= FAKE_SERIES.length) return (document.getElementById('more').textContent = 'The end');
+      const next = FAKE_SERIES.slice(shown, shown + 8);
+      shown += next.length;
+      document.getElementById('grid').insertAdjacentHTML('beforeend', next.map(s => cardHTML(s)).join(''));
+    }
+    more();
+    new IntersectionObserver(e => e[0].isIntersecting && setTimeout(more, 300)).observe(document.getElementById('more'));
+  </script>
+  <script src="../../content/ns.js"></script>
+  <script src="../../content/values.js"></script>
+  <script src="../../content/formula.js"></script>
+  <script src="../../content/selectors.js"></script>
+  <script src="../../content/extract.js"></script>
+  <script src="../../content/pagedata.js"></script>
+  <script src="../../content/filters.js"></script>
+  <script src="../../content/pagefilter.js"></script>
+  <script src="../../content/store.js"></script>
+  <script src="../../content/picker.js"></script>
+  <script src="../../content/help.js"></script>
+  <script src="../../content/panel.js"></script>
+  <script src="../../content/main.js"></script>
+</body>
+</html>

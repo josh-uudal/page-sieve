@@ -1,0 +1,29 @@
+/* Deliberately aggressive site CSS, to check the panel isn't affected by it. */
+* { box-sizing: border-box; }
+body { margin: 0; font: 15px/1.5 Georgia, serif; background: #f6f1ea; color: #2b2118; }
+button, input, select, table, td, th { font-family: Georgia, serif !important; font-size: 18px; color: #a0522d; }
+table { border: 3px solid red; }
+div { letter-spacing: .02em; }
+.testbar { background: #222; color: #eee; padding: 6px 14px; font: 13px system-ui, sans-serif; display: flex; gap: 10px; align-items: center; }
+.testbar button { font: 12px system-ui !important; color: #111; }
+.site-hd { background: #3b2a1e; color: #fff; padding: 14px 24px; font-size: 22px; }
+.layout { display: flex; gap: 24px; padding: 20px 24px; align-items: flex-start; }
+main { flex: 1; min-width: 0; }
+aside { width: 240px; flex: none; background: #fff; border-radius: 8px; padding: 12px; }
+aside h2, main h1 { margin: 0 0 12px; font-size: 18px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 14px; }
+.series-card { position: relative; display: flex; gap: 12px; background: #fff; border-radius: 8px; padding: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.12); }
+.series-card .cover img { width: 70px; height: 99px; border-radius: 4px; display: block; }
+.series-card .info { min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+.series-card .title { font-weight: bold; color: #2b2118; text-decoration: none; font-size: 16px; }
+.series-card .stats, .series-card .meta { display: flex; gap: 10px; font-size: 13px; color: #6b5a4b; }
+.series-card .genres { display: flex; gap: 6px; flex-wrap: wrap; }
+.series-card .genres a { position: relative; z-index: 2; font-size: 11px; background: #efe6da; border-radius: 3px; padding: 1px 6px; color: #6b5a4b; text-decoration: none; }
+.series-card .stretched { position: absolute; inset: 0; z-index: 1; }
+.series-card.mini { padding: 6px; margin-bottom: 8px; box-shadow: none; border: 1px solid #eee; }
+.series-card.mini .cover img { width: 36px; height: 50px; }
+.series-card.mini .stats, .series-card.mini .meta, .series-card.mini .genres { display: none; }
+.pager { display: flex; gap: 6px; margin: 20px 0; }
+.pager a { padding: 4px 10px; background: #fff; border-radius: 4px; color: #3b2a1e; text-decoration: none; }
+.pager a.cur { background: #3b2a1e; color: #fff; }
